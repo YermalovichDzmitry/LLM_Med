@@ -1,8 +1,5 @@
 import streamlit as st
-import torch
-from huggingface_hub import notebook_login
 import faiss
-from transformers import AutoModelForCausalLM, AutoTokenizer
 import pandas as pd
 from sentence_transformers import SentenceTransformer
 from transformers import pipeline
